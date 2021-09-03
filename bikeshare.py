@@ -24,8 +24,7 @@ def get_filters():
                 break
 
     # get user input for month (all, january, february, ... , december)
-    months = ('january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october',
-'november', 'december')
+    months = ('january', 'february', 'march', 'april', 'may')
     while True:
             month = input('Please input month:\n').lower()        
             if month != 'all' and month not in months:
