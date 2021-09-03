@@ -33,7 +33,7 @@ def get_filters():
                 break
 
     # get user input for day of week (all, monday, tuesday, ... sunday)    
-    days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
+    days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
     while True:
             day = input('Please select a day of the week:\n ').lower()        
             if day != 'all' and day not in days:
